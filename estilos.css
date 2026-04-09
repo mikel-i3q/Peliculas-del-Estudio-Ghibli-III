@@ -1,0 +1,26 @@
+body { background-color: #ecf0f1; text-align: center; }
+
+header { background-color: #2c3e50; color: white; padding: 20px; }
+header p { font-size: 14px; margin: 5px 0 0; }
+
+#buscador { width: 80%; max-width: 400px; border: 2px solid #bdc3c7; }
+#buscador:focus { border-color: #2c3e50; box-shadow: none; }
+
+.card img { height: 380px; object-fit: cover; }
+.card:hover { transform: translateY(-5px); }
+.puntuacion { background-color: #f1c40f; color: #2c3e50; font-weight: bold; padding: 4px 10px; border-radius: 5px; }
+
+.btn-favorita.activa { background-color: #e67e22; border-color: #e67e22; }
+.btn-favorita.activa:hover { background-color: #c0392b; border-color: #c0392b; }
+
+#seccion-favoritas { background-color: #2c3e50; padding: 30px 20px; border-top: 3px solid #f1c40f; }
+#seccion-favoritas h2 { color: white; }
+#seccion-favoritas h2 i { color: #f1c40f; }
+#seccion-favoritas .subtitulo { color: #bdc3c7; font-size: 14px; }
+#seccion-favoritas .sin-favoritas { color: #bdc3c7; }
+#contenedor-favoritas .card { background-color: #34495e; border-color: #4a6278; }
+#contenedor-favoritas .card h5,
+#contenedor-favoritas .card p { color: #bdc3c7; }
+#contenedor-favoritas .card h5 { color: #ecf0f1; }
+
+footer { background-color: #2c3e50; color: white; padding: 15px; border-top: 2px solid #f1c40f; }
